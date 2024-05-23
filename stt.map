@@ -1,0 +1,107 @@
+
+stt.elf:     file format elf32-littleriscv
+
+SYMBOL TABLE:
+00000000 l    d  .init	00000000 .init
+000000a0 l    d  .text	00000000 .text
+00001d04 l    d  .fini	00000000 .fini
+20000000 l    d  .dalign	00000000 .dalign
+00001d04 l    d  .dlalign	00000000 .dlalign
+20000000 l    d  .data	00000000 .data
+20000000 l    d  .bss	00000000 .bss
+00000000 l    d  .debug_info	00000000 .debug_info
+00000000 l    d  .debug_abbrev	00000000 .debug_abbrev
+00000000 l    d  .debug_loclists	00000000 .debug_loclists
+00000000 l    d  .debug_aranges	00000000 .debug_aranges
+00000000 l    d  .debug_rnglists	00000000 .debug_rnglists
+00000000 l    d  .debug_line	00000000 .debug_line
+00000000 l    d  .debug_str	00000000 .debug_str
+00000000 l    d  .debug_line_str	00000000 .debug_line_str
+00000000 l    d  .comment	00000000 .comment
+00000000 l    d  .riscv.attributes	00000000 .riscv.attributes
+00000000 l    d  .debug_frame	00000000 .debug_frame
+00000136 l     F .text	0000009c mini_pad
+000001d2 l     F .text	000000c0 mini_itoa.part.0
+00000292 l     F .text	0000002e _write.constprop.0
+000002c0 l     F .text	00000014 __puts_uart
+00000370 l     F .text	000001b4 mini_vpprintf
+00000d08 l     F .text	00000122 TIM1_UP_IRQHandler
+20000154 l     O .bss	00000014 nfloor
+20000008 l     O .bss	00000004 count
+20000368 l     O .bss	00000200 re
+20000168 l     O .bss	00000200 im
+00000fd4 l     O .text	00000100 tr
+00000ed4 l     O .text	00000100 ti
+20000104 l     O .bss	00000050 mel
+00001904 l     O .text	00000400 mel_mx
+000010d4 l     O .text	00000024 first
+200000e4 l     O .bss	00000020 cep
+00001684 l     O .text	00000280 dctm_8bit
+20000004 l     O .bss	00000001 wsize
+2000001c l     O .bss	000000c8 word
+20000000 l     O .bss	00000004 silcount
+2000000c l     O .bss	00000004 lock
+000010f8 l     O .text	0000058c cb
+20000010 l     O .bss	00000004 posn
+20000018 l     O .bss	00000004 total
+20000014 l     O .bss	00000004 samcount
+20000568 l     O .bss	00000100 buffer
+00000000 l    df *ABS*	00000000 muldi3.o
+00000000 l    df *ABS*	00000000 div.o
+00000524 g     F .text	00000026 printf
+20000800 g       .data	00000000 __global_pointer$
+0000034e g     F .text	00000002 TIM1_CC_IRQHandler
+0000034e g     F .text	00000002 HardFault_Handler
+0000034e g     F .text	00000002 SysTick_Handler
+0000034e g     F .text	00000002 PVD_IRQHandler
+00000350 g     F .text	0000000e NMI_Handler
+00000000 g     F .init	0000009c InterruptVectorDefault
+20000000 g       .bss	00000000 _sbss
+0000055c g     F .text	0000001c memcpy
+00000000 g     F .init	0000009c InterruptVector
+00000578 g     F .text	0000002c puts
+000000c0 g     F .text	0000002c .hidden __hidden___udivsi3
+0000110e  w      .debug_info	00000000 .hidden ch32v003fun.c.cf54356c
+000000c0 g     F .text	0000002c .hidden __udivsi3
+000000a0 g       .init	00000000 _einit
+0000034e g     F .text	00000002 SPI1_IRQHandler
+0000034e g     F .text	00000002 AWU_IRQHandler
+0000034e g     F .text	00000002 EXTI7_0_IRQHandler
+0000034e g     F .text	00000002 DMA1_Channel4_IRQHandler
+0000034e g     F .text	00000002 ADC1_IRQHandler
+00001f77  w      .debug_info	00000000 .hidden stt.c.9f0bce84
+20000668 g       .bss	00000000 _ebss
+0000034e g     F .text	00000002 DMA1_Channel7_IRQHandler
+000000ec g     F .text	00000008 .hidden __umodsi3
+0000034e g     F .text	00000002 I2C1_EV_IRQHandler
+0000034e g     F .text	00000002 DMA1_Channel6_IRQHandler
+0000034e g     F .text	00000002 RCC_IRQHandler
+0000034e g     F .text	00000002 TIM1_TRG_COM_IRQHandler
+0000034e g     F .text	00000002 DMA1_Channel1_IRQHandler
+000000a0 g     F .text	00000014 .hidden __mulsi3
+0000034e g     F .text	00000002 DefaultIRQHandler
+20000000 g       .dalign	00000000 _data_vma
+00000350 g     F .text	0000000e NMI_RCC_CSS_IRQHandler
+0000054a g     F .text	00000012 memset
+00000654 g     F .text	000006b4 main
+0000034e g     F .text	00000002 DMA1_Channel5_IRQHandler
+000000b8 g     F .text	00000058 .hidden __divsi3
+000005a4 g     F .text	000000b0 SystemInit
+00000000 g       .init	00000000 _sinit
+0000034e g     F .text	00000002 DMA1_Channel3_IRQHandler
+0000034e g     F .text	00000002 WWDG_IRQHandler
+0000034e g     F .text	00000002 TIM2_IRQHandler
+20000800 g       .bss	00000000 _eusrstack
+0000034e g     F .text	00000002 SW_Handler
+0000034e g     F .text	00000002 TIM1_BRK_IRQHandler
+20000000 g       .data	00000000 _edata
+00001d04 g       .dlalign	00000000 _data_lma
+00000110 g     F .text	00000024 .hidden __modsi3
+0000034e g     F .text	00000002 DMA1_Channel2_IRQHandler
+000002d4 g     F .text	0000007a handle_reset
+0000034e g     F .text	00000002 FLASH_IRQHandler
+0000034e g     F .text	00000002 USART1_IRQHandler
+0000035e g     F .text	00000012 strlen
+0000034e g     F .text	00000002 I2C1_ER_IRQHandler
+
+

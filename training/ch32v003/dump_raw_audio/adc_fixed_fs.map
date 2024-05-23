@@ -1,0 +1,87 @@
+
+adc_fixed_fs.elf:     file format elf32-littleriscv
+
+SYMBOL TABLE:
+00000000 l    d  .init	00000000 .init
+000000a0 l    d  .text	00000000 .text
+00000890 l    d  .fini	00000000 .fini
+20000000 l    d  .dalign	00000000 .dalign
+00000890 l    d  .dlalign	00000000 .dlalign
+20000000 l    d  .data	00000000 .data
+20000000 l    d  .bss	00000000 .bss
+00000000 l    d  .debug_info	00000000 .debug_info
+00000000 l    d  .debug_abbrev	00000000 .debug_abbrev
+00000000 l    d  .debug_loclists	00000000 .debug_loclists
+00000000 l    d  .debug_aranges	00000000 .debug_aranges
+00000000 l    d  .debug_rnglists	00000000 .debug_rnglists
+00000000 l    d  .debug_line	00000000 .debug_line
+00000000 l    d  .debug_str	00000000 .debug_str
+00000000 l    d  .debug_line_str	00000000 .debug_line_str
+00000000 l    d  .comment	00000000 .comment
+00000000 l    d  .riscv.attributes	00000000 .riscv.attributes
+00000000 l    d  .debug_frame	00000000 .debug_frame
+0000011e l     F .text	0000009c mini_pad
+000001ba l     F .text	000000c0 mini_itoa.part.0
+0000027a l     F .text	0000002e _write.constprop.0
+000002a8 l     F .text	00000014 __puts_uart
+00000358 l     F .text	000001b4 mini_vpprintf
+0000076c l     F .text	000000a0 TIM1_UP_IRQHandler
+20000004 l     O .bss	00000004 total
+20000000 l     O .bss	00000004 count
+00000000 l    df *ABS*	00000000 div.o
+00000570 g     F .text	0000001e putchar
+0000050c g     F .text	00000026 printf
+20000800 g       .data	00000000 __global_pointer$
+00000336 g     F .text	00000002 TIM1_CC_IRQHandler
+00000336 g     F .text	00000002 HardFault_Handler
+00000336 g     F .text	00000002 SysTick_Handler
+00000336 g     F .text	00000002 PVD_IRQHandler
+00000338 g     F .text	0000000e NMI_Handler
+00000000 g     F .init	0000009c InterruptVectorDefault
+20000000 g       .bss	00000000 _sbss
+00000000 g     F .init	0000009c InterruptVector
+00000544 g     F .text	0000002c puts
+000000a8 g     F .text	0000002c .hidden __hidden___udivsi3
+000000a8 g     F .text	0000002c .hidden __udivsi3
+000000a0 g       .init	00000000 _einit
+00000336 g     F .text	00000002 SPI1_IRQHandler
+00000336 g     F .text	00000002 AWU_IRQHandler
+00000336 g     F .text	00000002 EXTI7_0_IRQHandler
+00000e15  w      .debug_info	00000000 .hidden ch32v003fun.c.945b3a98
+00000336 g     F .text	00000002 DMA1_Channel4_IRQHandler
+00000336 g     F .text	00000002 ADC1_IRQHandler
+20000008 g       .bss	00000000 _ebss
+00000336 g     F .text	00000002 DMA1_Channel7_IRQHandler
+00001c7e  w      .debug_info	00000000 .hidden adc_fixed_fs.c.84d9c04d
+000000d4 g     F .text	00000008 .hidden __umodsi3
+00000336 g     F .text	00000002 I2C1_EV_IRQHandler
+00000336 g     F .text	00000002 DMA1_Channel6_IRQHandler
+00000336 g     F .text	00000002 RCC_IRQHandler
+00000336 g     F .text	00000002 TIM1_TRG_COM_IRQHandler
+00000336 g     F .text	00000002 DMA1_Channel1_IRQHandler
+00000336 g     F .text	00000002 DefaultIRQHandler
+20000000 g       .dalign	00000000 _data_vma
+00000338 g     F .text	0000000e NMI_RCC_CSS_IRQHandler
+00000532 g     F .text	00000012 memset
+0000063e g     F .text	0000012e main
+00000336 g     F .text	00000002 DMA1_Channel5_IRQHandler
+000000a0 g     F .text	00000058 .hidden __divsi3
+0000058e g     F .text	000000b0 SystemInit
+00000000 g       .init	00000000 _sinit
+00000336 g     F .text	00000002 DMA1_Channel3_IRQHandler
+00000336 g     F .text	00000002 WWDG_IRQHandler
+00000336 g     F .text	00000002 TIM2_IRQHandler
+20000800 g       .bss	00000000 _eusrstack
+00000336 g     F .text	00000002 SW_Handler
+00000336 g     F .text	00000002 TIM1_BRK_IRQHandler
+20000000 g       .data	00000000 _edata
+00000890 g       .dlalign	00000000 _data_lma
+000000f8 g     F .text	00000024 .hidden __modsi3
+00000336 g     F .text	00000002 DMA1_Channel2_IRQHandler
+000002bc g     F .text	0000007a handle_reset
+00000336 g     F .text	00000002 FLASH_IRQHandler
+00000336 g     F .text	00000002 USART1_IRQHandler
+00000346 g     F .text	00000012 strlen
+00000336 g     F .text	00000002 I2C1_ER_IRQHandler
+
+

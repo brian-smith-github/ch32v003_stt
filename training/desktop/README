@@ -1,0 +1,17 @@
+desktop-linux app compantion to the ch32v003 code that writes 8-bit audio
+out over the UART.
+To train,  speak a digit, if it's recognized wrongly then press the correct
+digit on the keyboard within 1 second of the result being reported to add
+this new audio sample to the 'codebook'
+
+
+Note that once the serial port is put into RAW mode,
+audio can be tested/listened back to with something like:
+
+cat /dev/ttyACM0 > /tmp/audio.raw
+(press CTRL-C once finished)
+sox  -r 6400 -c 1 -b8 -eunsigned /tmp/audio.raw /tmp/audio.wav
+play /tmp/audio.wav
+
+(or just do 'cat /dev/ttyACO' to get a rough visual representation of the
+output from the microphone)
